@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:\\Users\\slimy\\Documents\\GitHub\\Odin\\Odin.exe",
+            "args": [
+                "run",
+                "${workspaceFolder}",
+                "-out:${workspaceFolderBasename}.exe",
+                "-extra-linker-flags:/FORCE",
+                //"-use-separate-modules",
+                //"-lld",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "logging": {
+                "moduleLoad": false
+            }
+        }
+    ]
+}
