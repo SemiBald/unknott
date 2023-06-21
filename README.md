@@ -1,3 +1,3 @@
-# unknott
+# disentangle
 
 My first published game
